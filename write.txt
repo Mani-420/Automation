@@ -1,1 +1,0 @@
-Hello! This is an experiment to write something in a file.
