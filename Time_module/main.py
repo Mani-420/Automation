@@ -3,5 +3,10 @@ import time
 
 
 # Current time since epoch in seconds
-curr = time.time()
-print("Current time in seconds since epoch =", curr)
+current_time_in_seconds = time.time()
+# print("Current time in seconds since epoch =", current_time_in_seconds)
+
+
+# Current time since epoch in seconds
+current_time_till_now = time.ctime()
+print("Current time:", current_time_till_now)
