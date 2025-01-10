@@ -20,4 +20,18 @@ current_time_till_now = time.ctime()
 
 # Local Time From epoch----------------------------------
 obj = time.localtime()
-print(obj)
+# print(obj)
+
+
+# Local Time in Seconds----------------------------------
+obj1 = time.gmtime()
+time_sec = time.mktime(obj1)
+# print("Local time (in seconds):", time_sec)
+
+
+# Seconds to time.struct_time object----------------------------------
+obj2 = time.gmtime()
+# print(obj2)
+
+
+# Seconds to time.struct_time object----------------------------------
