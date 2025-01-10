@@ -18,4 +18,6 @@ current_time_till_now = time.ctime()
 #     print(i)
 
 
-# Delay Execution----------------------------------
+# Local Time From epoch----------------------------------
+obj = time.localtime()
+print(obj)
